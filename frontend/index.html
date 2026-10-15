@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServerOS | Control Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="hacker-theme">
+    <div id="background-animation"></div>
+    
+    <nav class="sidebar">
+        <div class="logo">ServerOS</div>
+        <ul class="nav-links">
+            <li class="active" data-section="overview">Dashboard</li>
+            <li data-section="servers">Servers</li>
+            <li data-section="terminal">Terminal</li>
+            <li data-section="analytics">Analytics</li>
+            <li id="logout-btn">Logout</li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <header>
+            <h1 id="section-title">Dashboard Overview</h1>
+            <div class="status-indicator">
+                <span id="bot-status" class="status offline">Bot: Offline</span>
+                <span id="ws-status" class="status offline">WS: Disconnected</span>
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="overview" class="dashboard-section active">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Servers</h3>
+                    <p id="stat-servers">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Messages</h3>
+                    <p id="stat-messages">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Uptime</h3>
+                    <p id="stat-uptime">00:00:00</p>
+                </div>
+            </div>
+            <div class="live-logs-container">
+                <h3>Live System Logs</h3>
+                <div id="log-stream" class="terminal-box"></div>
+            </div>
+        </section>
+
+        <section id="servers" class="dashboard-section">
+            <div class="server-list-container">
+                <div class="server-grid" id="server-grid">
+                    <!-- Servers will be injected here -->
+                </div>
+            </div>
+            <div id="server-control-panel" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="current-server-name">Server Name</h2>
+                    <div class="cog-controls">
+                        <h3>Cog Management</h3>
+                        <div id="cog-list" class="cog-grid"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="terminal" class="dashboard-section">
+            <div class="terminal-container">
+                <div id="terminal-output" class="terminal-box"></div>
+                <div class="terminal-input-area">
+                    <span>></span>
+                    <input type="text" id="terminal-input" placeholder="Enter command...">
+                </div>
+            </div>
+        </section>
+
+        <section id="analytics" class="dashboard-section">
+            <div class="charts-container">
+                <canvas id="activityChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
