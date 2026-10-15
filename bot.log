@@ -1,0 +1,18 @@
+2026-05-25 20:10:45,276 [INFO] discord.client: logging in using static token
+2026-05-25 20:10:46,624 [INFO] ServerOS.DB: Database ready at server_os.db
+2026-05-25 20:10:46,760 [ERROR] ServerOS.Bot: Failed to load extension bot.cogs.moderation: Extension 'bot.cogs.moderation' raised an error: ModuleNotFoundError: No module named 'core'
+2026-05-25 20:10:46,817 [ERROR] ServerOS.Bot: Failed to load extension bot.cogs.economy: Extension 'bot.cogs.economy' raised an error: ModuleNotFoundError: No module named 'core'
+2026-05-25 20:10:46,870 [ERROR] ServerOS.Bot: Failed to load extension bot.cogs.analytics: Extension 'bot.cogs.analytics' raised an error: ModuleNotFoundError: No module named 'core'
+2026-05-25 20:10:46,922 [ERROR] ServerOS.Bot: Failed to load extension bot.cogs.automation: Extension 'bot.cogs.automation' raised an error: ModuleNotFoundError: No module named 'core'
+2026-05-25 20:10:46,994 [ERROR] ServerOS.Bot: Failed to load extension bot.core.error_handler: Extension 'bot.core.error_handler' raised an error: ModuleNotFoundError: No module named 'core'
+2026-05-25 20:10:47,075 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:10:48,773 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: af7d91d38bcc1c6bd3281a24dbf35d90).
+2026-05-25 20:10:50,894 [INFO] ServerOS.Bot: Bot logged in as MPo bot#1682
+2026-05-25 20:10:52,084 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:10:52,458 [INFO] discord.gateway: Shard ID None has successfully RESUMED session af7d91d38bcc1c6bd3281a24dbf35d90.
+2026-05-25 20:10:57,097 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:11:02,106 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:11:07,119 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:11:12,132 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:11:17,145 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
+2026-05-25 20:11:22,157 [ERROR] ServerOS.Bot: Backend WS Connection Error: [Errno 111] Connect call failed ('127.0.0.1', 8000)
